@@ -189,10 +189,10 @@ function unZip($file,$dest){
 }
 
 /**
-	* function to delete all files in a directory recursively
-	* @param string $dir directory to delete
-	* @param bool $noExclude skip exclusions
-	*/
+ * function to delete all files in a directory recursively
+ * @param string $dir directory to delete
+ * @param bool $noExclude skip exclusions
+ */
 function rmdirRecursively($dir,$noExclude=false) {
 	global $exc;
 	$trace = '';
@@ -247,10 +247,10 @@ function getRootName($path){
 }
 
 /**
-	* function to copy all files in a directory to another recursively
-	* @param string $src path
-	* @param string $dest destination path
-	*/
+ * function to copy all files in a directory to another recursively
+ * @param string $src path
+ * @param string $dest destination path
+ */
 function copy_recursively($src, $dest) {
 	global $exc;
 
